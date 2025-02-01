@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1, h2, h3, p, a {
+    font-family: 'Montserrat', Arial;
+    font-weight: 500;
+}
+
+/* Hero */
+
+.flexbox-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    height: 60rem;
+}
+
+.hero > * {
+    text-align: center;
+}
+
+.hero p {
+    margin-block-start: 0.3rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.hero h1 {
+    margin-block-end: 0;
+    font-size: 6rem;
+    font-weight: 900;
+    flex-direction: row;
+}
+
+/* Hero > Links */
+.btn {
+    background-color: #222222;
+    text-decoration: none;;
+    color: white;
+    font-size: .875rem;
+    font-weight: 600;
+    padding: .75rem 2rem;
+    margin: 0.2em 0.5em;
+    margin-block-start: 2em;
+}
+
+.btn:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
