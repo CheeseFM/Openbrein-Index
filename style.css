@@ -55,10 +55,11 @@ h1, h2, h3, p, a {
 @media screen and (max-width : 800px) {
     .hero h1 {
         margin-block-end: 0;
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .btn {
         font-size: .875rem;
+        padding: .75rem 1.5rem;
     }
 
     .hero p {
